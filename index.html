@@ -1,22 +1,1811 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>News Week Clone</title>
+    <!-- fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-    <title>News Week Website Bootstrap Clone</title>
+    <!-- fonts ends  -->
+    <link
+      rel="shortcut icon"
+      href="images/title-logo.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body style="background-color: #f4f5f6;">
+    <!-- Main Container fluid -->
+
+    <div class="container-fluid px-0 main bg-white">
+      <!-- navbar starts here -->
+      <div class="row no-gutters bg-red py-3 px-2">
+        <div
+          class="col-lg-4 pl-3 font-weight-bold text-white top-navbar-signin"
+        >
+          <p><i class="fas fa-water"></i> 22<sup>o</sup> null, PK ></p>
+          <p class="top-navbar-date text-white">Mon, Apr 20,2020</p>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <a href="#"
+            ><img
+              class="center-navbar-logo"
+              src="https://raw.githubusercontent.com/lmaldonadoch/newsweek-clone/master/images/Newsweek_Logo.svg.png"
+              alt="#"
+            />
+          </a>
+        </div>
+        <div
+          class="right-navbar col-lg-4 d-flex justify-content-end align-items-end pr-2 pb-2"
+        >
+          <a class="text-white mr-2 mb-1 top-navbar-signin" href="#">SIGN IN</a>
+          <a class="top-navbar-signup bg-white px-4" href="#"
+            >SUBSCRIBE <span class="greater-than"> ></span></a
+          >
+        </div>
+      </div>
+
+      <nav
+        class="nav d-none d-lg-flex justify-content-around pr-5 font-weight-bolder top-navbar py-3 border-bottom"
+      >
+        <a class="navlinks" href="#">U.S.</a>
+        <a class="navlinks border-left pl-3" href="#">World</a>
+        <a class="navlinks border-left pl-3" href="#">Business</a>
+        <a class="navlinks border-left pl-3" href="#">Tech & Science</a>
+        <a class="navlinks border-left pl-3" href="#">Culture</a>
+        <a class="navlinks border-left pl-3" href="#">Newsgeek</a>
+        <a class="navlinks border-left pl-3" href="#">Sports</a>
+        <a class="navlinks border-left pl-3" href="#">The Debate</a>
+        <a class="navlinks border-left pl-3" href="#">Vantage</a>
+        <a class="navlinks border-left pl-3" href="#">Weather</a>
+        <div class="row pl-2">
+          <input class="search" type="text" placeholder="Search" />
+          <i class="fa fa-search pt-1"></i>
+        </div>
+      </nav>
+
+      <!-- navbar ends here -->
+      <!-- main container starts here -->
+      <div class="row px-4 py-3">
+        <div class="col-3">
+          <h6 class="font-roboto text-secondary">FEATURED STORIES</h6>
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img-fluid position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img-fluid position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img-fluid position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img-fluid position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img-fluid position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img-fluid position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+        </div>
+
+        <!-- center colums -->
+
+        <div class="col-5">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="font-roboto text-secondary">TOP STORY</h6>
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid border-none position-relative"
+                    src="https://d.newsweek.com/en/full/1582738/antibody-testing.webp?w=591&h=364&f=dd42b5aeaeed49c18b0c23e9f9c40e77"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+                  href="#"
+                  >U.S.</a
+                >
+              </div>
+              <div class="card-title">
+                <a href="#"
+                  >Study Shows COVID-19 Rate of Infection May Be 85 Times Higher
+                  Than Previously Thought</a
+                >
+              </div>
+              <div class="card-text pb-3">
+                The Stanford University study, which has not been peer reviewed,
+                was carried out in California's Santa Clara county.
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-2">
+            <div class="col-12">
+              <h6 class="font-roboto text-secondary">HEROES OF PANEDEMIC</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid position-relative"
+                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 center-img-link"
+                  href="#"
+                  >Coronavirus</a
+                >
+              </div>
+              <div class="card-title font-lora">
+                <a href="#"
+                  >Former World Champion Converts Archery Business to Make
+                  Respirators</a
+                >
+              </div>
+              <div class="card-text pandemic-desc pb-3">
+                UltraView Archery owner Kolby Hanley is now using his 3D
+                printers in a war-like effort to help the supply chain for those
+                on the front lines of the pandemic.
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid position-relative"
+                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 center-img-link"
+                  href="#"
+                  >Coronavirus</a
+                >
+              </div>
+              <div class="card-title font-lora">
+                <a href="#"
+                  >Former World Champion Converts Archery Business to Make
+                  Respirators</a
+                >
+              </div>
+              <div class="card-text pandemic-desc pb-3">
+                UltraView Archery owner Kolby Hanley is now using his 3D
+                printers in a war-like effort to help the supply chain for those
+                on the front lines of the pandemic.
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid position-relative"
+                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 center-img-link"
+                  href="#"
+                  >Coronavirus</a
+                >
+              </div>
+              <div class="card-title font-lora">
+                <a href="#"
+                  >Former World Champion Converts Archery Business to Make
+                  Respirators</a
+                >
+              </div>
+              <div class="card-text pandemic-desc pb-3">
+                UltraView Archery owner Kolby Hanley is now using his 3D
+                printers in a war-like effort to help the supply chain for those
+                on the front lines of the pandemic.
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col">
+              <h6 class="font-roboto text-secondary">Culture & Travel</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid position-relative"
+                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 center-img-link"
+                  href="#"
+                  >Coronavirus</a
+                >
+              </div>
+              <div class="card-title font-lora">
+                <a href="#"
+                  >Former World Champion Converts Archery Business to Make
+                  Respirators</a
+                >
+              </div>
+              <div class="card-text pandemic-desc pb-3">
+                UltraView Archery owner Kolby Hanley is now using his 3D
+                printers in a war-like effort to help the supply chain for those
+                on the front lines of the pandemic.
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid position-relative"
+                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 center-img-link"
+                  href="#"
+                  >Coronavirus</a
+                >
+              </div>
+              <div class="card-title font-lora">
+                <a href="#"
+                  >Former World Champion Converts Archery Business to Make
+                  Respirators</a
+                >
+              </div>
+              <div class="card-text pandemic-desc pb-3">
+                UltraView Archery owner Kolby Hanley is now using his 3D
+                printers in a war-like effort to help the supply chain for those
+                on the front lines of the pandemic.
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-image-top img-fluid position-relative"
+                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                    alt="#"
+                  />
+                </a>
+                <a
+                  class="position-absolute bg-light py-2 px-3 center-img-link"
+                  href="#"
+                  >Coronavirus</a
+                >
+              </div>
+              <div class="card-title font-lora">
+                <a href="#"
+                  >Former World Champion Converts Archery Business to Make
+                  Respirators</a
+                >
+              </div>
+              <div class="card-text pandemic-desc pb-3">
+                UltraView Archery owner Kolby Hanley is now using his 3D
+                printers in a war-like effort to help the supply chain for those
+                on the front lines of the pandemic.
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <h6 class="font-roboto text-secondary">MORE STORIES</h6>
+              <hr class="my-2" />
+            </div>
+          </div>
+
+          <div class="row pt-3 border-bottom">
+            <div class="col-3 pr-0">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                  alt="#"
+              /></a>
+            </div>
+            <div class="col-9 pl-0">
+              <a href="#" class="font-roboto stories-link"
+                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
+                Fears
+              </a>
+              <p class="pt-2 pandemic-desc text-dark">
+                The amount totaled more than was withdrawn in the whole of 2019.
+              </p>
+            </div>
+          </div>
+          <div class="row pt-3 border-bottom">
+            <div class="col-3 pr-0">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                  alt="#"
+              /></a>
+            </div>
+            <div class="col-9 pl-0">
+              <a href="#" class="font-roboto stories-link"
+                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
+                Fears
+              </a>
+              <p class="pt-2 pandemic-desc text-dark">
+                The amount totaled more than was withdrawn in the whole of 2019.
+              </p>
+            </div>
+          </div>
+          <div class="row pt-3 border-bottom">
+            <div class="col-3 pr-0">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                  alt="#"
+              /></a>
+            </div>
+            <div class="col-9 pl-0">
+              <a href="#" class="font-roboto stories-link"
+                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
+                Fears
+              </a>
+              <p class="pt-2 pandemic-desc text-dark">
+                The amount totaled more than was withdrawn in the whole of 2019.
+              </p>
+            </div>
+          </div>
+          <div class="row pt-3 border-bottom">
+            <div class="col-3 pr-0">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                  alt="#"
+              /></a>
+            </div>
+            <div class="col-9 pl-0">
+              <a href="#" class="font-roboto stories-link"
+                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
+                Fears
+              </a>
+              <p class="pt-2 pandemic-desc text-dark">
+                The amount totaled more than was withdrawn in the whole of 2019.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 pl-4">
+          <div class="row">
+            <div class="col-12">
+              <a href="#"
+                ><h6 class="font-roboto text-secondary">OPINION</h6></a
+              >
+            </div>
+
+            <div class="row border-bottom pt-2">
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="font-roboto opinion-link"
+                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
+                </a>
+                <p class="opinion-writer pt-1">BY KATE BROWN</p>
+              </div>
+            </div>
+
+            <div class="row border-bottom pt-2">
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="font-roboto opinion-link"
+                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
+                </a>
+                <p class="opinion-writer pt-1">BY KATE BROWN</p>
+              </div>
+            </div>
+
+            <div class="row border-bottom pt-2">
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="font-roboto opinion-link"
+                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
+                </a>
+                <p class="opinion-writer pt-1">BY KATE BROWN</p>
+              </div>
+            </div>
+
+            <div class="row pt-2">
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="font-roboto opinion-link"
+                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
+                </a>
+                <p class="opinion-writer pt-1">BY KATE BROWN</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pl-2">
+            <div class="col-12">
+              <a href="#"
+                ><h6 class="font-roboto text-secondary pt-3">LATEST NEWS</h6></a
+              >
+            </div>
+
+            <div class="row border-bottom py-2 pt-2">
+              <div class="col-4">
+                <a href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="font-roboto opinion-link"
+                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
+                </a>
+              </div>
+            </div>
+
+            <div class="row border-bottom py-2 pt-2">
+              <div class="col-4">
+                <a href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="font-roboto opinion-link"
+                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
+                </a>
+              </div>
+            </div>
+
+            <div class="row border-bottom py-2 pt-2">
+              <div class="col-4">
+                <a href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="font-roboto opinion-link"
+                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
+                </a>
+              </div>
+            </div>
+
+            <div class="row py-2 pt-2">
+              <div class="col-4">
+                <a href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="font-roboto opinion-link"
+                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-10 pt-2 mx-auto signup">
+              <div class="row p-2">
+                <div class="col-12">
+                  <img
+                    class="img signup-img mt-1"
+                    src="images/title-logo.jpg"
+                    alt="#"
+                  />
+                  <p class="signup-p pl-2">Sign up for our Newsletter</p>
+                </div>
+                <div class="col-12 pb-2">
+                  <a
+                    class="text-light bg-dark p-2 font-weight-bold signup-link"
+                    href="#"
+                    >SIGNUP ></a
+                  >
+                </div>
+                <div class="col-12 pb-2">
+                  <a class="signup-desc" href="#"
+                    >Update your preferences » ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of main content  -->
+
+        <!-- main container ends here -->
+      </div>
+
+      <div class="row mb-0">
+        <!-- in the magazine starts here  -->
+        <div class="col-lg-12 text-center">
+          <img src="images/title-logo.jpg" class="signup-img" alt="" />
+          <span class="signup-p">IN THE MAGAZINE</span>
+        </div>
+      </div>
+      <hr class="mx-4" />
+      <div class="row px-4 d-flex justify-content-between">
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-first-img"
+                src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.webp?w=290&h=387&q=90&f=7f26fde6d5561538aa45dcb46c489f17"
+                alt=""
+            /></a>
+            <p class="position-absolute magazine-date mb-0">MAY 01 ISSUE</p>
+          </div>
+          <a class="d-block py-2 px-5 w-100 magazine-first-link" href="#"
+            >SEE ALL FEATURES &#62;</a
+          >
+        </div>
+
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row px-4 d-flex justify-content-between">
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 pt-4">
+          <div class="card">
+            <a href="#"
+              ><img
+                class="card-img-top position-relative magazine-other-img w-100"
+                src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
+                alt=""
+            /></a>
+          </div>
+          <div class="py-1">
+            <span class="magazine-cover p-1">COVER</span>
+            <a class="magazine-other-links" href="#">POLITICS</a>
+            <a class="magazine-other-links-2 d-block pt-2" href="#"
+              >Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And
+              More
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- in the magazine ends here  -->
+
+      <!-- editors choice starts here  -->
+
+      <div class="row pt-4">
+        <!-- in the magazine starts here  -->
+        <div class="col-lg-12 text-center">
+          <img src="images/title-logo.jpg" class="signup-img" alt="" />
+          <span class="signup-p">EDITOR'S PICK</span>
+        </div>
+      </div>
+      <hr class="mx-4" />
+      <div class="row px-4 d-flex justify-content-between">
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+      </div>
+
+      <div class="row px-4 d-flex justify-content-between">
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img w-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+      </div>
+      <hr class="mx-4" />
+
+      <div class="container-fluid">
+        <a class="p-4" href="#">U.S.</a>
+        <div class="row px-4 mt-2 d-flex justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex border-bottom pb-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex border-bottom py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mx-4" />
+
+      <div class="container-fluid">
+        <a class="p-4" href="#">U.S.</a>
+        <div class="row px-4 mt-2 d-flex justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex border-bottom pb-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex border-bottom py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mx-4" />
+
+      <div class="container-fluid">
+        <a class="p-4" href="#">U.S.</a>
+        <div class="row px-4 mt-2 d-flex justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex border-bottom pb-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex border-bottom py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mx-4" />
+
+      <div class="container-fluid">
+        <a class="p-4" href="#">U.S.</a>
+        <div class="row px-4 mt-2 d-flex justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex border-bottom pb-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex border-bottom py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mx-4" />
+
+      <div class="container-fluid">
+        <a class="p-4" href="#">U.S.</a>
+        <div class="row px-4 mt-2 d-flex justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex border-bottom pb-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex border-bottom py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mx-4" />
+
+      <div class="container-fluid">
+        <a class="p-4" href="#">U.S.</a>
+        <div class="row px-4 mt-2 d-flex justify-content-between">
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-image-top w-100"
+                  src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <a class="card-title" href="#"
+                >'Battle for Space Superiority' Subject of Address as Cadets
+                Graduate</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex border-bottom pb-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex border-bottom py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex py-2">
+              <div>
+                <a class="" href="#"
+                  ><img
+                    class="img"
+                    src="https://d.newsweek.com/en/full/1582860/alex-jones-reopen-america-rally.webp?w=95&h=95&f=4fb6ad25234752a6d3117c7ee97f4e49"
+                    alt="#"
+                /></a>
+              </div>
+              <div class="ml-3">
+                <a href="#"
+                  >Alex Jones Shakes Hands With Protesters at Texas Rally to
+                  Reopen State
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- editors choice ends here  -->
+
+      <!-- footer subscribe starts here  -->
+
+      <div class="container-fluid no-gutters">
+        <div class="d-flex justify-content-between mx-2">
+          <div class="">
+            <h6>SUBSCRIBE</h6>
+            <div class="footer-subscribe-container d-flex">
+              <div class="subscribe-images">
+                <img
+                  class="position-absolute"
+                  src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8"
+                  alt="#"
+                />
+                <img
+                  class="position-relative subscribe-2nd-image"
+                  src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&q=95&f=1a0d984a3141e5762557f214ca2a1540"
+                  alt="#"
+                />
+              </div>
+              <div class="subscribe-desc-container pl-4 pt-4">
+                <h2 class="footer-subscibe">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h2>
+                <p class="footer-subscribe-desc pt-2">
+                  All Access + Weekly Delivery.<br />
+                  Choose A Membership That's Perfect for You!
+                </p>
+                <button class="py-2 px-3 footer-subscribe-button">
+                  SUBSCRIBE <span style="font-size: 20px;"> ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <h6>NEWSLETTER</h6>
+
+            <div class="footer-newsletter-container d-flex border">
+              <div class="newsletter-img"></div>
+              <div class="newsletter-desc p-4">
+                <h2 class="footer-subscibe">
+                  The Starting 5
+                </h2>
+                <p class="footer-subscribe-desc pt-2">
+                  See why nearly a quarter of a million subscribers begin their
+                  day with the Starting 5.
+                </p>
+                <button class="py-2 px-3 footer-subscribe-button">
+                  SIGN UP <span class="greater-than"> ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!-- footer subscribe ends here  -->
+
+      <!-- footer social starts here  -->
+
+      <div
+        class="no-gutters mx-4 pt-2 d-flex justify-content-between align-items-center"
+      >
+        <div>
+          <h2 class="footer-newsweek">
+            Newsweek <span class="copyright">© 2020 Newsweek</span>
+          </h2>
+        </div>
+        <div>
+          <a class="social-links" href="#"
+            ><i class="fa fa-facebook-square mx-1"></i
+          ></a>
+          <a class="social-links" href="#"
+            ><i class="fa fa-twitter mx-1"></i
+          ></a>
+          <a class="social-links" href="#"
+            ><i class="fa fa-instagram mx-1"></i
+          ></a>
+          <a class="social-links" href="#"><i class="fa fa-tumblr mx-1"></i></a>
+          <a class="social-links" href="#"
+            ><i class="fa fa-linkedin mx-1"></i
+          ></a>
+        </div>
+      </div>
+
+      <div>
+        <hr class="mx-4" />
+        <ul>
+          <li><a class="font-weight-bold" href="#">Editions</a></li>
+          <li><a href="#">U.S. Edition</a></li>
+          <li><a href="#">日本</a></li>
+          <li><a href="#">Pakistan</a></li>
+          <li><a href="#">Polska</a></li>
+          <li><a href="#">Romania</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Corrections</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Editorial Guidelines</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Copyright</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Terms of Sale</a></li>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">Announcements</a></li>
+          <li><a href="#">Consent preferences</a></li>
+        </ul>
+      </div>
+
+      <!-- footer social ends here  -->
+      <!-- end of main container fluid -->
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
