@@ -57,45 +57,68 @@
 
     <div class="container-fluid px-0 main bg-white">
       <!-- navbar starts here -->
-      <div class="row no-gutters bg-red py-3 px-2">
-        <div
-          class="col-lg-4 pl-3 font-weight-bold text-white top-navbar-signin"
-        >
-          <p><i class="fas fa-water"></i> 22<sup>o</sup> null, PK ></p>
-          <p class="top-navbar-date text-white">Mon, Apr 20,2020</p>
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center">
-          <a href="#"
-            ><img
-              class="center-navbar-logo"
-              src="https://raw.githubusercontent.com/lmaldonadoch/newsweek-clone/master/images/Newsweek_Logo.svg.png"
-              alt="#"
-            />
-          </a>
-        </div>
-        <div
-          class="right-navbar col-lg-4 d-flex justify-content-end align-items-end pr-2 pb-2"
-        >
-          <a class="text-white mr-2 mb-1 top-navbar-signin" href="#">SIGN IN</a>
-          <a class="top-navbar-signup bg-white px-4" href="#"
-            >SUBSCRIBE <span class="greater-than"> ></span></a
-          >
+      <div class="row bg-red mx-0 p-2">
+        <div class="col">
+          <div class="d-flex justify-content-between">
+            <div
+              class="d-flex top-navbar-signin justify-content-start align-items-center"
+            >
+              <div class="d-flex align-items-center">
+                <a href="#"
+                  ><img
+                    class="front-navbar-logo"
+                    src="images/Newsweek_Logo.svg.png"
+                    alt="#"
+                  />
+                </a>
+              </div>
+              <div>
+                <div class="align-self-center">
+                  <p class="text-white weather">
+                    <i class="fas fa-water"></i> 22<sup>o</sup>
+                  </p>
+                  <p class="text-white location">null, PK ></p>
+                </div>
+                <div>
+                  <p class="top-navbar-date pt-3 text-white">
+                    Mon, Apr 20,2020
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-end">
+              <a href="#"
+                ><img
+                  class="center-navbar-logo"
+                  src="images/Newsweek_Logo.svg.png"
+                  alt="#"
+                />
+              </a>
+            </div>
+            <div class="right-navbar d-flex">
+              <a class="text-white top-navbar-signin" href="#">SIGN IN</a>
+              <button class="top-navbar-signup bg-white">
+                SUBSCRIBE <span class="greater-than-navbar"> ></span>
+              </button>
+              <span><i class="fa fa-bars"></i></span>
+            </div>
+          </div>
         </div>
       </div>
-
       <nav
         class="nav d-none d-lg-flex justify-content-around pr-5 font-weight-bolder top-navbar py-3 border-bottom"
       >
         <a class="navlinks" href="#">U.S.</a>
-        <a class="navlinks border-left pl-3" href="#">World</a>
-        <a class="navlinks border-left pl-3" href="#">Business</a>
-        <a class="navlinks border-left pl-3" href="#">Tech & Science</a>
-        <a class="navlinks border-left pl-3" href="#">Culture</a>
-        <a class="navlinks border-left pl-3" href="#">Newsgeek</a>
-        <a class="navlinks border-left pl-3" href="#">Sports</a>
-        <a class="navlinks border-left pl-3" href="#">The Debate</a>
-        <a class="navlinks border-left pl-3" href="#">Vantage</a>
-        <a class="navlinks border-left pl-3" href="#">Weather</a>
+        <a class="navlinks" href="#">World</a>
+        <a class="navlinks" href="#">Business</a>
+        <a class="navlinks" href="#">Tech & Science</a>
+        <a class="navlinks" href="#">Culture</a>
+        <a class="navlinks" href="#">Newsgeek</a>
+        <a class="navlinks" href="#">Sports</a>
+        <a class="navlinks" href="#">The Debate</a>
+        <a class="navlinks" href="#">Vantage</a>
+        <a class="navlinks" href="#">Weather</a>
         <div class="row pl-2">
           <input class="search" type="text" placeholder="Search" />
           <i class="fa fa-search pt-1"></i>
@@ -104,14 +127,14 @@
 
       <!-- navbar ends here -->
       <!-- main container starts here -->
-      <div class="row px-4 py-3">
-        <div class="col-3">
-          <h6 class="font-roboto text-secondary">FEATURED STORIES</h6>
+      <div class="row px-4 pt-3">
+        <div class="col-sm-12 col-md-7 col-lg-6 order-md-1">
+          <h6 class="font-roboto text-secondary">TOP STORY</h6>
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top img-fluid position-relative"
-                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                class="card-image-top img w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582738/antibody-testing.webp?w=591&h=364&f=dd42b5aeaeed49c18b0c23e9f9c40e77"
                 alt="#"
               />
             </a>
@@ -123,641 +146,684 @@
           </div>
           <div class="card-title">
             <a href="#"
-              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
-              Testing'</a
+              >Study Shows COVID-19 Rate of Infection May Be 85 Times Higher
+              Than Previously Thought</a
             >
           </div>
           <div class="card-text pb-3">
-            The vice president rejected criticism that there is not enough
-            testing capacity to end lockdowns and reopen the U.S. economy.
+            The Stanford University study, which has not been peer reviewed, was
+            carried out in California's Santa Clara county.
           </div>
 
-          <div class="card">
-            <a href="#">
-              <img
-                class="card-image-top img-fluid position-relative"
-                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
-                alt="#"
-              />
-            </a>
-            <a
-              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-              href="#"
-              >U.S.</a
-            >
-          </div>
-          <div class="card-title">
-            <a href="#"
-              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
-              Testing'</a
-            >
-          </div>
-          <div class="card-text pb-3">
-            The vice president rejected criticism that there is not enough
-            testing capacity to end lockdowns and reopen the U.S. economy.
-          </div>
-
-          <div class="card">
-            <a href="#">
-              <img
-                class="card-image-top img-fluid position-relative"
-                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
-                alt="#"
-              />
-            </a>
-            <a
-              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-              href="#"
-              >U.S.</a
-            >
-          </div>
-          <div class="card-title">
-            <a href="#"
-              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
-              Testing'</a
-            >
-          </div>
-          <div class="card-text pb-3">
-            The vice president rejected criticism that there is not enough
-            testing capacity to end lockdowns and reopen the U.S. economy.
-          </div>
-
-          <div class="card">
-            <a href="#">
-              <img
-                class="card-image-top img-fluid position-relative"
-                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
-                alt="#"
-              />
-            </a>
-            <a
-              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-              href="#"
-              >U.S.</a
-            >
-          </div>
-          <div class="card-title">
-            <a href="#"
-              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
-              Testing'</a
-            >
-          </div>
-          <div class="card-text pb-3">
-            The vice president rejected criticism that there is not enough
-            testing capacity to end lockdowns and reopen the U.S. economy.
-          </div>
-
-          <div class="card">
-            <a href="#">
-              <img
-                class="card-image-top img-fluid position-relative"
-                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
-                alt="#"
-              />
-            </a>
-            <a
-              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-              href="#"
-              >U.S.</a
-            >
-          </div>
-          <div class="card-title">
-            <a href="#"
-              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
-              Testing'</a
-            >
-          </div>
-          <div class="card-text pb-3">
-            The vice president rejected criticism that there is not enough
-            testing capacity to end lockdowns and reopen the U.S. economy.
-          </div>
-
-          <div class="card">
-            <a href="#">
-              <img
-                class="card-image-top img-fluid position-relative"
-                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
-                alt="#"
-              />
-            </a>
-            <a
-              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-              href="#"
-              >U.S.</a
-            >
-          </div>
-          <div class="card-title">
-            <a href="#"
-              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
-              Testing'</a
-            >
-          </div>
-          <div class="card-text pb-3">
-            The vice president rejected criticism that there is not enough
-            testing capacity to end lockdowns and reopen the U.S. economy.
-          </div>
-        </div>
-
-        <!-- center colums -->
-
-        <div class="col-5">
           <div class="row">
-            <div class="col-12">
-              <h6 class="font-roboto text-secondary">TOP STORY</h6>
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid border-none position-relative"
-                    src="https://d.newsweek.com/en/full/1582738/antibody-testing.webp?w=591&h=364&f=dd42b5aeaeed49c18b0c23e9f9c40e77"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-                  href="#"
-                  >U.S.</a
-                >
-              </div>
-              <div class="card-title">
-                <a href="#"
-                  >Study Shows COVID-19 Rate of Infection May Be 85 Times Higher
-                  Than Previously Thought</a
-                >
-              </div>
-              <div class="card-text pb-3">
-                The Stanford University study, which has not been peer reviewed,
-                was carried out in California's Santa Clara county.
-              </div>
-            </div>
-          </div>
-
-          <div class="row pt-2">
-            <div class="col-12">
+            <div class="d-sm-none d-md-flex col-md-12">
               <h6 class="font-roboto text-secondary">HEROES OF PANEDEMIC</h6>
             </div>
           </div>
           <div class="row">
-            <div class="col-4">
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid position-relative"
-                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 center-img-link"
-                  href="#"
-                  >Coronavirus</a
-                >
-              </div>
-              <div class="card-title font-lora">
-                <a href="#"
-                  >Former World Champion Converts Archery Business to Make
-                  Respirators</a
-                >
-              </div>
-              <div class="card-text pandemic-desc pb-3">
-                UltraView Archery owner Kolby Hanley is now using his 3D
-                printers in a war-like effort to help the supply chain for those
-                on the front lines of the pandemic.
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid position-relative"
-                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 center-img-link"
-                  href="#"
-                  >Coronavirus</a
-                >
-              </div>
-              <div class="card-title font-lora">
-                <a href="#"
-                  >Former World Champion Converts Archery Business to Make
-                  Respirators</a
-                >
-              </div>
-              <div class="card-text pandemic-desc pb-3">
-                UltraView Archery owner Kolby Hanley is now using his 3D
-                printers in a war-like effort to help the supply chain for those
-                on the front lines of the pandemic.
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid position-relative"
-                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 center-img-link"
-                  href="#"
-                  >Coronavirus</a
-                >
-              </div>
-              <div class="card-title font-lora">
-                <a href="#"
-                  >Former World Champion Converts Archery Business to Make
-                  Respirators</a
-                >
-              </div>
-              <div class="card-text pandemic-desc pb-3">
-                UltraView Archery owner Kolby Hanley is now using his 3D
-                printers in a war-like effort to help the supply chain for those
-                on the front lines of the pandemic.
+            <div class="d-sm-none d-md-flex col-md-12">
+              <div class="d-flex">
+                <div class="p-1">
+                  <div class="card">
+                    <a href="#">
+                      <img
+                        class="card-image-top img-fluid position-relative"
+                        src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                        alt="#"
+                      />
+                    </a>
+                    <a
+                      class="position-absolute bg-light py-2 px-3 center-img-link"
+                      href="#"
+                      >Coronavirus</a
+                    >
+                  </div>
+                  <div class="card-title font-lora">
+                    <a href="#"
+                      >Former World Champion Converts Archery Business to Make
+                      Respirators</a
+                    >
+                  </div>
+                  <div class="card-text pandemic-desc pb-3">
+                    UltraView Archery owner Kolby Hanley is now using his 3D
+                    printers in a war-like effort to help the supply chain for
+                    those on the front lines of the pandemic.
+                  </div>
+                </div>
+
+                <div class="p-1">
+                  <div class="card">
+                    <a href="#">
+                      <img
+                        class="card-image-top img-fluid position-relative"
+                        src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                        alt="#"
+                      />
+                    </a>
+                    <a
+                      class="position-absolute bg-light py-2 px-3 center-img-link"
+                      href="#"
+                      >Coronavirus</a
+                    >
+                  </div>
+                  <div class="card-title font-lora">
+                    <a href="#"
+                      >Former World Champion Converts Archery Business to Make
+                      Respirators</a
+                    >
+                  </div>
+                  <div class="card-text pandemic-desc pb-3">
+                    UltraView Archery owner Kolby Hanley is now using his 3D
+                    printers in a war-like effort to help the supply chain for
+                    those on the front lines of the pandemic.
+                  </div>
+                </div>
+
+                <div class="p-1">
+                  <div class="card">
+                    <a href="#">
+                      <img
+                        class="card-image-top img-fluid position-relative"
+                        src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
+                        alt="#"
+                      />
+                    </a>
+                    <a
+                      class="position-absolute bg-light py-2 px-3 center-img-link"
+                      href="#"
+                      >Coronavirus</a
+                    >
+                  </div>
+                  <div class="card-title font-lora">
+                    <a href="#"
+                      >Former World Champion Converts Archery Business to Make
+                      Respirators</a
+                    >
+                  </div>
+                  <div class="card-text pandemic-desc pb-3">
+                    UltraView Archery owner Kolby Hanley is now using his 3D
+                    printers in a war-like effort to help the supply chain for
+                    those on the front lines of the pandemic.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="row pt-2">
-            <div class="col">
+
+          <div class="row">
+            <div class="d-sm-none d-md-flex col-md-12">
               <h6 class="font-roboto text-secondary">Culture & Travel</h6>
             </div>
           </div>
           <div class="row">
-            <div class="col-4">
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid position-relative"
-                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 center-img-link"
-                  href="#"
-                  >Coronavirus</a
-                >
-              </div>
-              <div class="card-title font-lora">
-                <a href="#"
-                  >Former World Champion Converts Archery Business to Make
-                  Respirators</a
-                >
-              </div>
-              <div class="card-text pandemic-desc pb-3">
-                UltraView Archery owner Kolby Hanley is now using his 3D
-                printers in a war-like effort to help the supply chain for those
-                on the front lines of the pandemic.
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid position-relative"
-                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 center-img-link"
-                  href="#"
-                  >Coronavirus</a
-                >
-              </div>
-              <div class="card-title font-lora">
-                <a href="#"
-                  >Former World Champion Converts Archery Business to Make
-                  Respirators</a
-                >
-              </div>
-              <div class="card-text pandemic-desc pb-3">
-                UltraView Archery owner Kolby Hanley is now using his 3D
-                printers in a war-like effort to help the supply chain for those
-                on the front lines of the pandemic.
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <a href="#">
-                  <img
-                    class="card-image-top img-fluid position-relative"
-                    src="https://d.newsweek.com/en/full/1580231/kolby-hanley-ultraview-archery.webp?w=397&h=397&f=782e112f8989056fad558c670bcbe8c9"
-                    alt="#"
-                  />
-                </a>
-                <a
-                  class="position-absolute bg-light py-2 px-3 center-img-link"
-                  href="#"
-                  >Coronavirus</a
-                >
-              </div>
-              <div class="card-title font-lora">
-                <a href="#"
-                  >Former World Champion Converts Archery Business to Make
-                  Respirators</a
-                >
-              </div>
-              <div class="card-text pandemic-desc pb-3">
-                UltraView Archery owner Kolby Hanley is now using his 3D
-                printers in a war-like effort to help the supply chain for those
-                on the front lines of the pandemic.
+            <div class="d-sm-none d-md-flex col-md-12">
+              <div class="d-flex">
+                <div class="p-1">
+                  <div class="card">
+                    <a href="#">
+                      <img
+                        class="card-image-top img-fluid position-relative"
+                        src="https://d.newsweek.com/en/full/1552272/cul-map-underwater-03.webp?w=397&h=397&f=38a37908ac75c7b800c8c3306baa948d"
+                        alt="#"
+                      />
+                    </a>
+                    <a
+                      class="position-absolute bg-light py-2 px-3 center-img-link"
+                      href="#"
+                      >Travel</a
+                    >
+                  </div>
+                  <div class="card-title font-lora">
+                    <a href="#"
+                      >Former World Champion Converts Archery Business to Make
+                      Respirators</a
+                    >
+                  </div>
+                  <div class="card-text pandemic-desc pb-3">
+                    UltraView Archery owner Kolby Hanley is now using his 3D
+                    printers in a war-like effort to help the supply chain for
+                    those on the front lines of the pandemic.
+                  </div>
+                </div>
+
+                <div class="p-1">
+                  <div class="card">
+                    <a href="#">
+                      <img
+                        class="card-image-top img-fluid position-relative"
+                        src="https://d.newsweek.com/en/full/1552272/cul-map-underwater-03.webp?w=397&h=397&f=38a37908ac75c7b800c8c3306baa948d"
+                        alt="#"
+                      />
+                    </a>
+                    <a
+                      class="position-absolute bg-light py-2 px-3 center-img-link"
+                      href="#"
+                      >Travel</a
+                    >
+                  </div>
+                  <div class="card-title font-lora">
+                    <a href="#"
+                      >Former World Champion Converts Archery Business to Make
+                      Respirators</a
+                    >
+                  </div>
+                  <div class="card-text pandemic-desc pb-3">
+                    UltraView Archery owner Kolby Hanley is now using his 3D
+                    printers in a war-like effort to help the supply chain for
+                    those on the front lines of the pandemic.
+                  </div>
+                </div>
+
+                <div class="p-1">
+                  <div class="card">
+                    <a href="#">
+                      <img
+                        class="card-image-top img-fluid position-relative"
+                        src="https://d.newsweek.com/en/full/1552272/cul-map-underwater-03.webp?w=397&h=397&f=38a37908ac75c7b800c8c3306baa948d"
+                        alt="#"
+                      />
+                    </a>
+                    <a
+                      class="position-absolute bg-light py-2 px-3 center-img-link"
+                      href="#"
+                      >Travel</a
+                    >
+                  </div>
+                  <div class="card-title font-lora">
+                    <a href="#"
+                      >Former World Champion Converts Archery Business to Make
+                      Respirators</a
+                    >
+                  </div>
+                  <div class="card-text pandemic-desc pb-3">
+                    UltraView Archery owner Kolby Hanley is now using his 3D
+                    printers in a war-like effort to help the supply chain for
+                    those on the front lines of the pandemic.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
 
           <div class="row">
-            <div class="col">
+            <div class="d-sm-none d-md-flex col-md-12">
               <h6 class="font-roboto text-secondary">MORE STORIES</h6>
-              <hr class="my-2" />
+            </div>
+          </div>
+          <hr class="d-sm-none d-md-flex col-md-12">
+
+          <div class="row py-3 border-bottom">
+            <div class="d-sm-none d-md-flex col-md-12">
+              <div class="">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                    alt="#"
+                /></a>
+              </div>
+              <div class=" pl-3">
+                <a href="#" class="font-roboto stories-link"
+                  >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus Fears
+                </a>
+                <p class="pt-2 pandemic-desc text-dark">
+                  The amount totaled more than was withdrawn in the whole of 2019.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="row pt-3 border-bottom">
-            <div class="col-3 pr-0">
-              <a href="#"
-                ><img
-                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
-                  alt="#"
-              /></a>
-            </div>
-            <div class="col-9 pl-0">
-              <a href="#" class="font-roboto stories-link"
-                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
-                Fears
-              </a>
-              <p class="pt-2 pandemic-desc text-dark">
-                The amount totaled more than was withdrawn in the whole of 2019.
-              </p>
-            </div>
-          </div>
-          <div class="row pt-3 border-bottom">
-            <div class="col-3 pr-0">
-              <a href="#"
-                ><img
-                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
-                  alt="#"
-              /></a>
-            </div>
-            <div class="col-9 pl-0">
-              <a href="#" class="font-roboto stories-link"
-                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
-                Fears
-              </a>
-              <p class="pt-2 pandemic-desc text-dark">
-                The amount totaled more than was withdrawn in the whole of 2019.
-              </p>
+          <div class="row py-3 border-bottom">
+            <div class="d-sm-none d-md-flex col-md-12">
+              <div class="">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                    alt="#"
+                /></a>
+              </div>
+              <div class=" pl-3">
+                <a href="#" class="font-roboto stories-link"
+                  >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus Fears
+                </a>
+                <p class="pt-2 pandemic-desc text-dark">
+                  The amount totaled more than was withdrawn in the whole of 2019.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="row pt-3 border-bottom">
-            <div class="col-3 pr-0">
-              <a href="#"
-                ><img
-                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
-                  alt="#"
-              /></a>
-            </div>
-            <div class="col-9 pl-0">
-              <a href="#" class="font-roboto stories-link"
-                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
-                Fears
-              </a>
-              <p class="pt-2 pandemic-desc text-dark">
-                The amount totaled more than was withdrawn in the whole of 2019.
-              </p>
-            </div>
-          </div>
-          <div class="row pt-3 border-bottom">
-            <div class="col-3 pr-0">
-              <a href="#"
-                ><img
-                  src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
-                  alt="#"
-              /></a>
-            </div>
-            <div class="col-9 pl-0">
-              <a href="#" class="font-roboto stories-link"
-                >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus
-                Fears
-              </a>
-              <p class="pt-2 pandemic-desc text-dark">
-                The amount totaled more than was withdrawn in the whole of 2019.
-              </p>
+
+          <div class="row py-3">
+            <div class="d-sm-none d-md-flex col-md-12">
+              <div class="">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1582802/putin.webp?w=95&h=95&f=21f1fa05ee58fa3eed0d1cf2456c35f1"
+                    alt="#"
+                /></a>
+              </div>
+              <div class=" pl-3">
+                <a href="#" class="font-roboto stories-link"
+                  >Russians Withdrew $13.6B in Cash from ATMs Amid Coronavirus Fears
+                </a>
+                <p class="pt-2 pandemic-desc text-dark">
+                  The amount totaled more than was withdrawn in the whole of 2019.
+                </p>
+              </div>
             </div>
           </div>
+          
+
+
+
         </div>
 
-        <div class="col-3 pl-4">
+        <div class="col-sm-12 col-md-5 col-lg-3">
+          <h6 class="font-roboto text-secondary">FEATURED STORIES</h6>
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top img w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582610/coronavirus-recoveries-united-states-60000-people.webp?w=397&h=265&q=90&f=4c9b25c3163944d0ba285ca05f1e54d8"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >U.S.</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#"
+              >Pence Confident U.S. Can Reopen with 'Sufficient Amount of
+              Testing'</a
+            >
+          </div>
+          <div class="card-text pb-3">
+            The vice president rejected criticism that there is not enough
+            testing capacity to end lockdowns and reopen the U.S. economy.
+          </div>
+        </div>
+        <!-- featured storiees ends here  -->
+        <div class="col-md-12 col-lg-3 order-lg-2 order-sm-2">
           <div class="row">
             <div class="col-12">
               <a href="#"
                 ><h6 class="font-roboto text-secondary">OPINION</h6></a
               >
-            </div>
+              <div class="pt-2 border-bottom d-flex justify-content-start">
+                <div>
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Vote-by-Mail Is Obviously the Best Way to Hold Elections
+                    Now
+                  </a>
+                  <p class="opinion-writer pt-1">BY KATE BROWN</p>
+                </div>
+              </div>
 
-            <div class="row border-bottom pt-2">
-              <div class="col-3">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
-                    alt="#"
-                /></a>
+              <div class="pt-2 border-bottom d-flex justify-content-start">
+                <div>
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Vote-by-Mail Is Obviously the Best Way to Hold Elections
+                    Now
+                  </a>
+                  <p class="opinion-writer pt-1">BY KATE BROWN</p>
+                </div>
               </div>
-              <div class="col-9">
-                <a href="#" class="font-roboto opinion-link"
-                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
-                </a>
-                <p class="opinion-writer pt-1">BY KATE BROWN</p>
-              </div>
-            </div>
 
-            <div class="row border-bottom pt-2">
-              <div class="col-3">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
-                    alt="#"
-                /></a>
+              <div class="pt-2 border-bottom d-flex justify-content-start">
+                <div>
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Vote-by-Mail Is Obviously the Best Way to Hold Elections
+                    Now
+                  </a>
+                  <p class="opinion-writer pt-1">BY KATE BROWN</p>
+                </div>
               </div>
-              <div class="col-9">
-                <a href="#" class="font-roboto opinion-link"
-                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
-                </a>
-                <p class="opinion-writer pt-1">BY KATE BROWN</p>
-              </div>
-            </div>
 
-            <div class="row border-bottom pt-2">
-              <div class="col-3">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
-                    alt="#"
-                /></a>
-              </div>
-              <div class="col-9">
-                <a href="#" class="font-roboto opinion-link"
-                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
-                </a>
-                <p class="opinion-writer pt-1">BY KATE BROWN</p>
-              </div>
-            </div>
-
-            <div class="row pt-2">
-              <div class="col-3">
-                <a href="#"
-                  ><img
-                    src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
-                    alt="#"
-                /></a>
-              </div>
-              <div class="col-9">
-                <a href="#" class="font-roboto opinion-link"
-                  >Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
-                </a>
-                <p class="opinion-writer pt-1">BY KATE BROWN</p>
+              <div class="pt-2 d-flex justify-content-start">
+                <div>
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1582627/kate-brown.webp?w=63&h=63&f=cf71c7fc83876e71936c1cd6de72f1c9"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Vote-by-Mail Is Obviously the Best Way to Hold Elections
+                    Now
+                  </a>
+                  <p class="opinion-writer pt-1">BY KATE BROWN</p>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- debate starts here -->
 
           <div class="row">
             <div class="col-12">
               <a href="#"
-                ><h6 class="font-roboto text-secondary">THE DEBATE</h6></a
+                ><h6 class="pt-3 font-roboto text-secondary">THE DEBATE</h6></a
               >
-            </div>
-            <div class="d-flex pb-3 debate justify-content-between align-items-center">
-              <div class=" pt-1">
-                <a href="#"><img class="debate-image" src="https://d.newsweek.com/en/full/1582305/trump-pence.webp?w=397&h=265&f=65e4a9b105cd32e463e05605a367256e" alt="#"></a>
-              </div>
-              <div class="debate-text pl-3">
-                <a href="#">Trump's Right. The WHO Is Not Fit for Purpose</a>
+              <div
+                class="d-flex pb-3 debate justify-content-start align-items-center"
+              >
+                <div class="pt-1">
+                  <a href="#"
+                    ><img
+                      class="debate-image"
+                      src="https://d.newsweek.com/en/full/1582305/trump-pence.webp?w=397&h=265&f=65e4a9b105cd32e463e05605a367256e"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="debate-text pl-3">
+                  <a href="#">Trump's Right. The WHO Is Not Fit for Purpose</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="no-gutters d-flex justify-content-between">
-            <div class="debate-writer pt-1">
-              BY <a href="#"> Nigel Farage</a>
-            </div>
-            <div >
-              <a href="#"><img class="debate-writer-image" src="https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=150&h=150&f=2ae37ecc11a3397b627c243707faa3cb" alt="#"></a>
+          <div class="row">
+            <div class="col-12">
+              <div class="no-gutters d-flex justify-content-between">
+                <div class="debate-writer pt-1">
+                  BY <a href="#"> Nigel Farage</a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img
+                      class="debate-writer-image"
+                      src="https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=150&h=150&f=2ae37ecc11a3397b627c243707faa3cb"
+                      alt="#"
+                  /></a>
+                </div>
+              </div>
             </div>
           </div>
-
           <div class="d-flex justify-content-center align-items-center">
-           <button class="circle-bg text-white font-weight-bold my-3" disabled="disabled">VS</button>
+            <button
+              class="circle-bg text-white font-weight-bold my-3"
+              disabled="disabled"
+            >
+              VS
+            </button>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="d-flex pb-3 debate-2 justify-content-start align-items-center"
+              >
+                <div class="pt-1">
+                  <a href="#"
+                    ><img
+                      class="debate-image"
+                      src="https://d.newsweek.com/en/full/1582305/trump-pence.webp?w=397&h=265&f=65e4a9b105cd32e463e05605a367256e"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="debate-text pl-3">
+                  <a href="#">Trump's Right. The WHO Is Not Fit for Purpose</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="no-gutters d-flex justify-content-between">
+                <div class="debate-writer pt-1">
+                  BY <a href="#"> Nigel Farage</a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img
+                      class="debate-writer-image"
+                      src="https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=150&h=150&f=2ae37ecc11a3397b627c243707faa3cb"
+                      alt="#"
+                  /></a>
+                </div>
+              </div>
+            </div>
           </div>
 
-
+          <!-- latest news starts here  -->
 
           <div class="row">
-            <div class="d-flex pb-3 debate-2 justify-content-between align-items-center">
-              <div class=" pt-1">
-                <a href="#"><img class="debate-image" src="https://d.newsweek.com/en/full/1582305/trump-pence.webp?w=397&h=265&f=65e4a9b105cd32e463e05605a367256e" alt="#"></a>
-              </div>
-              <div class="debate-text pl-3">
-                <a href="#">Trump's Right. The WHO Is Not Fit for Purpose</a>
-              </div>
-            </div>
-          </div>
-          <div class="no-gutters d-flex justify-content-between">
-            <div class="debate-writer pt-1">
-              BY <a href="#"> Nigel Farage</a>
-            </div>
-            <div >
-              <a href="#"><img class="debate-writer-image" src="https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=150&h=150&f=2ae37ecc11a3397b627c243707faa3cb" alt="#"></a>
-            </div>
-          </div>
-
-
-          
-
-          <div class="row pl-2">
             <div class="col-12">
               <a href="#"
                 ><h6 class="font-roboto text-secondary pt-3">LATEST NEWS</h6></a
               >
-            </div>
+              <div class="border-bottom d-flex justify-content-start py-2 pt-2">
+                <div>
+                  <a href="#"
+                    ><img
+                      class="img"
+                      src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Cuomo Believes New York's Coronavirus Curve Is 'on a
+                    Descent'
+                  </a>
+                </div>
+              </div>
 
-            <div class="row border-bottom py-2 pt-2">
-              <div class="col-4">
-                <a href="#"
-                  ><img
-                    class="img"
-                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
-                    alt="#"
-                /></a>
-              </div>
-              <div class="col-8">
-                <a href="#" class="font-roboto opinion-link"
-                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
-                </a>
-              </div>
-            </div>
 
-            <div class="row border-bottom py-2 pt-2">
-              <div class="col-4">
-                <a href="#"
-                  ><img
-                    class="img"
-                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
-                    alt="#"
-                /></a>
+              <div class="border-bottom d-flex justify-content-start py-2 pt-2">
+                <div>
+                  <a href="#"
+                    ><img
+                      class="img"
+                      src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Cuomo Believes New York's Coronavirus Curve Is 'on a
+                    Descent'
+                  </a>
+                </div>
               </div>
-              <div class="col-8">
-                <a href="#" class="font-roboto opinion-link"
-                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
-                </a>
-              </div>
-            </div>
 
-            <div class="row border-bottom py-2 pt-2">
-              <div class="col-4">
-                <a href="#"
-                  ><img
-                    class="img"
-                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
-                    alt="#"
-                /></a>
-              </div>
-              <div class="col-8">
-                <a href="#" class="font-roboto opinion-link"
-                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
-                </a>
-              </div>
-            </div>
 
-            <div class="row py-2 pt-2">
-              <div class="col-4">
-                <a href="#"
-                  ><img
-                    class="img"
-                    src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
-                    alt="#"
-                /></a>
+              <div class="border-bottom d-flex justify-content-start py-2 pt-2">
+                <div>
+                  <a href="#"
+                    ><img
+                      class="img"
+                      src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Cuomo Believes New York's Coronavirus Curve Is 'on a
+                    Descent'
+                  </a>
+                </div>
               </div>
-              <div class="col-8">
-                <a href="#" class="font-roboto opinion-link"
-                  >Cuomo Believes New York's Coronavirus Curve Is 'on a Descent'
-                </a>
+              <div class="border-bottom d-flex justify-content-start py-2 pt-2">
+                <div>
+                  <a href="#"
+                    ><img
+                      class="img"
+                      src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Cuomo Believes New York's Coronavirus Curve Is 'on a
+                    Descent'
+                  </a>
+                </div>
               </div>
+
+              <div class=" d-flex justify-content-start py-2 pt-2">
+                <div>
+                  <a href="#"
+                    ><img
+                      class="img"
+                      src="https://d.newsweek.com/en/full/1582821/governor-andrew-cuomo.webp?w=95&h=95&f=31c8ee10ad54344f16cae8d5c2e930d3"
+                      alt="#"
+                  /></a>
+                </div>
+                <div class="pl-3">
+                  <a href="#" class="font-roboto opinion-link"
+                    >Cuomo Believes New York's Coronavirus Curve Is 'on a
+                    Descent'
+                  </a>
+                </div>
+              </div>
+
+
             </div>
           </div>
+          <!-- newsletter starts here  -->
 
-          <div class="row mt-3">
-            <div class="col-10 pt-2 mx-auto signup">
-              <div class="row p-2">
-                <div class="col-12">
+          <div class="row">
+            <div class="col-10 mx-auto signup">
+              <div class="row p-2 d-flex justify-content-start">
+                <div class="d-flex align-items-center">
+                 <div class="pl-3">
                   <img
-                    class="img signup-img mt-1"
-                    src="images/title-logo.jpg"
-                    alt="#"
-                  />
-                  <p class="signup-p pl-2">Sign up for our Newsletter</p>
+                  class="img signup-img mt-1"
+                  src="images/title-logo.jpg"
+                  alt="#"
+                />
+                 </div>
+                 <div class="pl-2">
+                  <p class=" signup-p d-inline">Sign up for our Newsletter</p>
+
+                 </div>
                 </div>
-                <div class="col-12 pb-2">
+                <div class="justify-content-start">
+                <div class="col-12 my-2 pt-2">
                   <a
                     class="text-light bg-dark p-2 font-weight-bold signup-link"
                     href="#"
@@ -765,19 +831,17 @@
                   >
                 </div>
                 <div class="col-12 pb-2">
-                  <a class="signup-desc" href="#"
-                    >Update your preferences » ></a
-                  >
+                  <a class="signup-desc" href="#">Update your preferences » ></a>
                 </div>
+              </div>
               </div>
             </div>
           </div>
+
+
         </div>
-        <!-- end of main content  -->
-
-        <!-- main container ends here -->
       </div>
-
+      <!-- main container ends here -->
       <div class="row mb-0">
         <!-- in the magazine starts here  -->
         <div class="col-lg-12 text-center">
@@ -797,7 +861,7 @@
             /></a>
             <p class="position-absolute magazine-date mb-0">MAY 01 ISSUE</p>
           </div>
-          <a class="d-block py-2 px-5 w-100 magazine-first-link" href="#"
+          <a class="d-block py-2 px-5 w-100 h-100 magazine-first-link" href="#"
             >SEE ALL FEATURES &#62;</a
           >
         </div>
@@ -806,7 +870,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -825,7 +889,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -844,7 +908,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -865,7 +929,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -884,7 +948,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -903,7 +967,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -922,7 +986,7 @@
           <div class="card">
             <a href="#"
               ><img
-                class="card-img-top position-relative magazine-other-img w-100"
+                class="card-img-top position-relative magazine-other-img h-100 w-100"
                 src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.webp?w=466&h=311&l=40&t=43&q=90&f=3a04771e849065ff652402c4dd0333ac"
                 alt=""
             /></a>
@@ -954,7 +1018,7 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -979,7 +1043,7 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -1004,7 +1068,7 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -1029,34 +1093,7 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top w-100 position-relative"
-                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
-                alt="#"
-              />
-            </a>
-            <a
-              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
-              href="#"
-              >NEWS</a
-            >
-          </div>
-          <div class="card-title">
-            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
-          </div>
-          <div class="card-text pb-3">
-            Several European nations, including Italy, Spain, the U.K., Germany,
-            France, Belgium and Sweden, have faced backlash over being to strict
-            or too relaxed in their response to the pandemic.
-          </div>
-        </div>
-      </div>
-
-      <div class="row px-4 d-flex justify-content-between">
-        <div class="col-sm-12 col-md-3">
-          <div class="card">
-            <a href="#">
-              <img
-                class="card-image-top w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -1081,7 +1118,7 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -1106,7 +1143,7 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -1131,7 +1168,32 @@
           <div class="card">
             <a href="#">
               <img
-                class="card-image-top img w-100 position-relative"
+                class="card-image-top w-100 h-100 position-relative"
+                src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
+                alt="#"
+              />
+            </a>
+            <a
+              class="position-absolute bg-light py-2 px-3 font-roboto features-img-link"
+              href="#"
+              >NEWS</a
+            >
+          </div>
+          <div class="card-title">
+            <a href="#">Lockdown End Date Debate Rages Across Europe</a>
+          </div>
+          <div class="card-text pb-3">
+            Several European nations, including Italy, Spain, the U.K., Germany,
+            France, Belgium and Sweden, have faced backlash over being to strict
+            or too relaxed in their response to the pandemic.
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <a href="#">
+              <img
+                class="card-image-top w-100 h-100 position-relative"
                 src="https://d.newsweek.com/en/full/1582593/sweden-stockholm-coronavirus-march-2020.webp?w=397&h=265&l=0&t=0&f=ab1f2f96de093933aa7a74e67d682fe0"
                 alt="#"
               />
@@ -1728,7 +1790,7 @@
       <!-- footer subscribe starts here  -->
 
       <div class="container-fluid no-gutters">
-        <div class="d-flex justify-content-between mx-2">
+        <div class="footer-subscribe-main-container d-flex">
           <div class="">
             <h6>SUBSCRIBE</h6>
             <div class="footer-subscribe-container d-flex">
@@ -1786,13 +1848,12 @@
 
       <!-- footer social starts here  -->
 
-      <div
-        class="no-gutters mx-4 pt-2 d-flex justify-content-between align-items-center"
-      >
-        <div>
+      <div class="footer-social no-gutters mx-4 pt-2 d-flex">
+        <div class="footer-social-copyright d-flex">
           <h2 class="footer-newsweek">
-            Newsweek <span class="copyright">© 2020 Newsweek</span>
+            Newsweek
           </h2>
+          <p class="copyright">© 2020 Newsweek</p>
         </div>
         <div>
           <a class="social-links" href="#"
