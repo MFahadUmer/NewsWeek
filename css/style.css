@@ -77,11 +77,11 @@
   align-items: center;
 }
 
-.right-navbar > a:hover {
+.right-navbar-link:hover {
   text-decoration: none;
 }
 
-.right-navbar > a:last-child:hover {
+.right-navbar-link:last-child:hover {
   color: #f72210;
 }
 
@@ -89,7 +89,7 @@
   background-color: #f72210;
 }
 
-.top-navbar > a {
+.navlinks-links {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -130,7 +130,7 @@
   font-size: 16px;
 }
 
-.card-title > a {
+.card-title-link {
   font-size: 24px;
   color: black;
   line-height: 1.4rem;
@@ -138,19 +138,13 @@
   margin-top: 1rem;
 }
 
+.card-title-link:hover{
+  color: black;
+}
+
 .card-text {
   line-height: 20px;
   font-size: 15px;
-}
-
-.font-lora > a {
-  font-family: "Lora", serif;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.font-lora > a:hover {
-  text-decoration: none;
 }
 
 .center-img-link {
@@ -449,28 +443,26 @@ ul {
   list-style: none;
 }
 
-ul > li {
-  display: inline;
-}
 
-ul > li > a {
+
+.footer-navlinks {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: rgb(110, 110, 110);
 }
 
-ul > li > a:hover {
+.footer-navlinks:hover {
   text-decoration: none;
   color: black;
 }
 
-ul > li::after {
+.footer-li::after {
   content: "|";
   margin: 5px;
   color: rgb(161, 161, 161);
 }
 
-ul > li:last-child::after {
+.footer-li:last-child::after {
   content: "";
 }
 
@@ -524,8 +516,7 @@ ul > li:last-child::after {
   display: block;
   position: relative;
   height: 500px;
-  background: 
-  url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
   padding: 60px 0;
 }
 
@@ -573,12 +564,13 @@ ul > li:last-child::after {
     padding-left: 15px;
   }
 }
+
 @media (min-width: 992px) {
   .fa-bars,
   .front-navbar-logo {
     display: none;
   }
-  
+
   .top-navbar-date,
   .center-navbar-logo {
     display: block;
