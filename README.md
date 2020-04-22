@@ -1,6 +1,6 @@
 # Project Name
 
-> Project Name NEWSWEEK CLONE This is a project based on an . In this project I used all the previous knowledge like flexbox grid float position and I also applied some new knowledge like bootstrap for this project. This website is responsive as it is build in bootstrap.
+> NEWSWEEK CLONE This is a project based on a working news website . In this project I used all the previous knowledge like flex box grid float position and I also applied some new knowledge like bootstrap for this project. This website is responsive as it is build in bootstrap.
 
 ![screenshot](./news-week-1.png)
 ![screenshot](./news-week-2.png)
