@@ -209,6 +209,7 @@
   height: 65px;
   margin-top: -10px;
 }
+
 .circle-bg {
   width: 40px;
   height: 40px;
@@ -220,6 +221,7 @@
 .stories-link:hover {
   color: black;
 }
+
 .pandemic-desc {
   font-size: 15px;
   color: rgb(85, 85, 85);
@@ -426,7 +428,7 @@
 
 .social-links {
   font-size: 24px;
-  color: #666666;
+  color: #666;
   vertical-align: center;
 }
 
@@ -442,6 +444,7 @@
   font-weight: 100;
   color: rgb(99, 99, 99);
 }
+
 ul {
   list-style: none;
 }
@@ -488,17 +491,21 @@ ul > li:last-child::after {
 }
 
 @media (min-width: 576px) {
+
   .greater-than-navbar {
     display: inline;
   }
+
   .weather,
   .location {
     display: inline;
   }
+
   .magazine-first-img,
   .magazine-other-img {
     max-width: 100%;
   }
+
   .magazine-first-link {
     width: 100%;
   }
@@ -518,12 +525,13 @@ ul > li:last-child::after {
   display: block;
   position: relative;
   height: 500px;
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
-    no-repeat scroll center / cover;
+  background: 
+    url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
   padding: 60px 0;
 }
 
 @media (min-width: 768px) {
+
   .footer-subscribe-container {
     flex-direction: row;
     max-width: 820px;
@@ -543,8 +551,6 @@ ul > li:last-child::after {
     display: block;
     position: relative;
     height: 200px;
-    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
-      no-repeat scroll center center / cover;
   }
   .newsletter-desc {
     position: relative;
@@ -569,6 +575,7 @@ ul > li:last-child::after {
 }
 
 @media (min-width: 992px) {
+  
   .fa-bars,
   .front-navbar-logo {
     display: none;
@@ -595,7 +602,5 @@ ul > li:last-child::after {
     display: block;
     position: relative;
     height: 302px;
-    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
-      no-repeat scroll center center / cover;
   }
 }
