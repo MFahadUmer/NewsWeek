@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/MFahadUmer/NewsWeek/51ecd3941e3f51a62abd3aa762994e5dc3f6b494/index.html)
+[Live Demo Link](https://rawcdn.githack.com/MFahadUmer/NewsWeek/9df6c9e36c19126b329df6f3d9b8e5c8cdf8a2ce/index.html)
 
 
 ## Getting Started
